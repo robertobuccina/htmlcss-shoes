@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background: black;
+}
+
+.layout{
+    height:100vh;
+}
+
+.container{
+    width: 35%;
+    height: 800px;
+    margin: auto;
+    display: table;
+}
+
+section{
+  height: calc( 800px / 3 );
+  position: relative;
+}
+    
+.whidt-shoes{
+    width: 200px;
+}
+
+.shoes-1 img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.shoes-2 img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.shoes-3 img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.bg-red{
+    background: red;
+}
+
+.bg-green{
+    background: rgb(20, 162, 20);
+}
+
+.bg-yellow{
+    background: yellow;
+}
+
+section p{
+    position:absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+button{
+    border: none;
+    padding: 5px;
+    font-size: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+ul li{
+    float: right;
+    margin: 5px;
+    list-style: none;
+    position: relative;
+    padding: 10px 10px 0 0;
+}
+
